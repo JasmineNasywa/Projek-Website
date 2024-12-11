@@ -6493,4 +6493,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 0;
 }
 
+ HEAD
 /*# sourceMappingURL=style.css.map */
+
+.game_card {
+  background: #fff;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.game_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.game_title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+.game_price {
+  font-size: 0.9rem;
+}
