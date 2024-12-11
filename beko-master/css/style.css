@@ -6493,4 +6493,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 0;
 }
 
+.product_details ul {
+  color: inherit; /* Mengikuti warna teks induk */
+  opacity: 1; /* Mengatur opasitas penuh */
+  margin: 0; /* Menghapus margin default jika ada */
+  padding: 0; /* Menghapus padding default jika ada */
+  list-style: none; /* Menghapus bullet atau angka pada daftar */
+}
+
+.product_details ul li {
+  font-size: 1rem; /* Atur ukuran font konsisten */
+  color: #f1f1f1; /* Warna teks */
+  opacity: 1; /* Opasitas penuh */
+}
+
+.product_details p, .product_details strong {
+  color: #f1f1f1; /* Warna teks konsisten */
+  opacity: 1; /* Opasitas penuh */
+}
+
 /*# sourceMappingURL=style.css.map */
